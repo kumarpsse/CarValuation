@@ -21,6 +21,7 @@ public class WebDriverBase {
             prop.load(fis);
         }catch (Exception e){
             e.getMessage();
+            System.out.println("get message" +e.getMessage());
         }
 
     }
